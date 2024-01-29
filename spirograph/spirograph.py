@@ -20,6 +20,6 @@ def draw_spirograph(size_of_gap):
 
 draw_spirograph(10)        
     
-# remain the window and waint for click
+# remain the window and wait for click
 screen = t.Screen()
 screen.exitonclick()
