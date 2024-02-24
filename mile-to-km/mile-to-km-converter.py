@@ -29,7 +29,7 @@ kilometer_label.grid(column=2, row=1)
 kilometer_label_result = Label(text="0")
 kilometer_label_result.grid(column=1, row=1)
 
-callable_button = Button(text="Calculate", command=miles_to_km)
-callable_button.grid(column=1, row=2)
+calculate_button = Button(text="Calculate", command=miles_to_km)
+calculate_button.grid(column=1, row=2)
 window.mainloop()
 
